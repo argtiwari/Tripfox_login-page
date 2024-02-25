@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental System</title>
+<link rel="stylesheet" href="style.css">
+
+    <style>
+      body {
+        /* background-color: antiquewhite; */
+        display: flex;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          109deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(189, 195, 203, 1) 79%,
+          rgba(173, 180, 190, 1) 98%,
+          rgba(170, 177, 187, 1) 100%
+        );
+      }
+
+      .main {
+        padding-top: 80px;
+        display: flex;
+      }
+
+      .login_container {
+        height: 75vh;
+        width: 400px;
+        margin-left: 50px;
+        border: 2px solid black;
+      }
+      .page_image {
+        height: 75vh;
+        width: 700px;
+        margin-left: 50px;
+        /* border: 2px solid black; */
+        overflow: hidden;
+      }
+      .page_image img {
+        /* background-repeat: no-repeat;
+            
+              background-size: auto;
+              background-size: contain, cover; */
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="container">
+            <div class="form signup">
+              <h2>Sign Up</h2>
+              <div class="inputBox">
+                <input type="text" required="required">
+                <i class="fa-regular fa-user"></i>
+                <span>username</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" required="required">
+                <i class="fa-regular fa-envelope"></i>
+                <span>email address</span>
+              </div>
+              <div class="inputBox">
+                <input type="password" required="required">
+                <i class="fa-solid fa-lock"></i>
+                <span>create password</span>
+              </div>
+              <div class="inputBox">
+                <input type="password" required="required">
+                <i class="fa-solid fa-lock"></i>
+                <span>confirm password</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" value="Create Account">
+              </div>
+              <p>Already a member ? <a href="#" class="login">Log in</a></p>
+            </div>
+          
+            <div class="form signin">
+              <h2>Sign In</h2>
+              <div class="inputBox">
+                <input type="text" required="required">
+                <i class="fa-regular fa-user"></i>
+                <span>username</span>
+              </div>
+              <div class="inputBox">
+                <input type="password" required="required">
+                <i class="fa-solid fa-lock"></i>
+                <span>password</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" value="Login">
+              </div>
+              <p>Not Registered ? <a href="#" class="create">Create an account</a></p>
+            </div>
+          
+          </div>
+    
+      <div class="page_image">
+        <img src="com_img-removebg-preview.png" alt="car com_img"   style="box-shadow: ;"/>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
