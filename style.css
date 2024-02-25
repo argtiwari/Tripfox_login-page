@@ -146,3 +146,19 @@ body {
   }
 }
 
+.head{
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .head{
+    
+       display: block;
+       align-items: center;
+       text-align: center;
+       padding-top: 80px;
+       font-size: 30px;
+
+  }
+}
+
