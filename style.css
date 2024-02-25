@@ -139,3 +139,10 @@ body {
   font-weight: 500;
   color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+  .page_image{
+    display: none;
+  }
+}
+
