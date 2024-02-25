@@ -22,6 +22,7 @@ body {
 }
 
 .container {
+  margin: auto;
   padding: 40px;
   background-color: rgb(164, 162, 162);
 
@@ -150,7 +151,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
   .head{
     
        display: block;
